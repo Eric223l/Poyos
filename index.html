@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pollos Asados El Buen Sabor</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #2C2F33;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      background-color: #1C1E21;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      background: gray;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .company-name {
+      background-color: #4A4D52;
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+
+    .menu {
+      cursor: pointer;
+      margin-left: auto;
+      font-size: 1.2rem;
+    }
+
+    .menu:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: calc(100vh - 80px);
+    }
+
+    .left, .right {
+      width: 50%;
+      padding: 40px;
+    }
+
+    .left {
+      background-color: white;
+    }
+
+    .right {
+      background-color: #4A4D52;
+      color: white;
+    }
+
+    .box {
+      background-color: #1C1E21;
+      color: white;
+      padding: 40px;
+      margin-bottom: 40px;
+      border-radius: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .photo-box {
+      background-color: #6D7177;
+      padding: 100px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    .contact-icons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .image-section {
+      background-color: #1C1E21;
+      padding: 100px;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 1.2rem;
+    }
+
+    .description {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .left, .right {
+        width: 100%;
+        padding: 20px;
+      }
+
+      .box, .photo-box, .image-section {
+        padding: 60px;
+      }
+    }
+  </style>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+        font-family: 'Bebas Neue', sans-serif;
+        background-color: #fff8f0;
+        color: #2e1a0f;
+        margin: 0;
+        padding: 0;
+    }
+    header, nav, footer {
+        background-color: #b71c1c;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+    a {
+        color: #ffcc80;
+        text-decoration: none;
+    }
+    h1, h2, h3 {
+        color: #bf360c;
+    }
+</style>
+</head>
+<body>
+<div class="header">
+<div class="logo">Logo</div>
+<div class="company-name">Nombre de la empresa</div>
+<div class="menu" onclick="window.location.href='menu.html'">☰ Menú</div>
+</div>
+<div class="container">
+<div class="left">
+<div class="box">tu pc sin polvo, ni problemas</div>
+<div class="photo-box">Foto del equipo de trabajo/herramientas</div>
+<div class="contact-icons">
+<div>📧 contacto@empresa.com</div>
+<div>📞 +123 456 7890</div>
+<div>🗺️ Ciudad, País</div>
+</div>
+</div>
+<div class="right">
+<div class="image-section">Imagen de lo que hagamos</div>
+<div class="description">Descripción de la imagen o comentario sobre esta</div>
+</div>
+</div>
+</body>
+</html>
